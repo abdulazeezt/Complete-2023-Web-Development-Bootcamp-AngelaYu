@@ -8,22 +8,16 @@ ol {
 
 p{
 color: red;
-
-
 }
 
 .note{
   font-size:x-large
-
-
 }
 
 li[value='4']{
 color: green;
-
 }
 
 li[value="5"]{
   text-align: center;
-
 }
