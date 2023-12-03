@@ -8,31 +8,54 @@
     /* Write your CSS Code here */
     
 
-  .flag_redbackside{
-          width: 900px;
-          height: 600px;
+  .flag{
+          width: 300px;
+          height: 200px;
+          border: thick solid #32a1ce;
+
           /* align-items: center; */
+
+          background-color: crimson;
+
+/* 
           background-color: red;
           font-weight: bold;
           font-size: 20pt;
           text-align: center;
-          color: white;
-        
+          color: white; */
         }
-
-
 .middle-color{
 
           width: 100%;
           height: 50%;
+          background-color: blue;
+/* 
           margin-top: 25%;
           margin-bottom: 25%;
-          background-color: blue;
-          position: relative;
+          position: relative; */
           /* z-index: 1; */
-
         }
 
+  .middle-color > div{
+
+              background-color: blueviolet;
+              height: 80px;
+              width: 80px;
+
+              position: relative;
+              top: 10%;
+              left: 35%;
+              border-radius: 50%;
+              text-align: center;
+              
+
+            }
+   .middle-color > div > p{
+    font-size: x-large;
+    text-align :end;
+
+   }
+    
 
 </style>
 </head>
@@ -47,25 +70,22 @@ Hint 2: You can use CSS inspection to get the colors from
 https://appbrewery.github.io/flag-of-laos/
 -->
 
-<body>
-     <div class="flag_redbackside">
-     
-      <p>The Flag</p>
- 
-       
-       <div class="middle-color">
 
-          <p> This is the flag   </p>
-       </div> 
+      <body>
 
+        <div class="flag">
+          <p>The Flag</p>
 
+            <div class="middle-color" >
 
- 
-      </div>
- 
-    
+                <div>
+                  <p>of Laos</p>
+                </div>
 
+            </div>
 
-</body>
+        </div>
 
+      </body>
 </html>
+
