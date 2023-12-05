@@ -12,12 +12,20 @@
   <style>
     p {
       color: white;
+      
+
+      /********************************* Solution 1 */
+      /* display:inline-block; */
+      /*************************** solution 2 */
+      display:block;
+
     }
 
     .red {
       /* display: block; */
-      display: block;
-
+      /* display: inline-block; */
+      
+    
       width: 200px;
       height: 200px;
       background-color: red;
@@ -27,17 +35,24 @@
 
       /* display: inline; */
 
-      display: inline;
+      /* display: inline-block */
       width: 200px;
       height: 200px;
       background-color: green;
     }
 
     .blue {
-      display: inline-block;
+      /* display: inline-block; */
       width: 200px;
       height: 200px;
       background-color: blue;
+    }
+
+    .span1{
+      
+      font-size: x-large;
+      color: coral;
+
     }
 
 
@@ -49,7 +64,8 @@
   <h1>CSS Display Property</h1>
   <p class="red">Red Paragraph </p>
   <p class="green">Green Paragraph</p>
-  <p class="blue">Blue Paragraph</p>
+  <p class="blue">Blue <span class="span1">Tesing Span</span>Paragraph</p>
+
 </body>
 
 </html>
