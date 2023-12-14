@@ -8,7 +8,6 @@ body {
 }
 .main {
   flex: 1;
-  /* display:block; */
 }
 
 h1 {
@@ -20,20 +19,3 @@ footer {
   color: midnightblue;
 }
 
-
-.left{
-
-  float:left;
-  /* display:block; */
-
-
-}
-
-
-.left{
-
-  /* float:right; */
-  /* display:block; */
-
-
-}
