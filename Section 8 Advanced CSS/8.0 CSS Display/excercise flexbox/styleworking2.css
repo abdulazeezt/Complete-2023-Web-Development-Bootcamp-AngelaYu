@@ -38,6 +38,10 @@
 
     /* border: solid; */
     /* border-radius: 10px; */
+    text-align: justify;
+    text-justify: inter-word;
+
+
   }
 
   .item h2{
