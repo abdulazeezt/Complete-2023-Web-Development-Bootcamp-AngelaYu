@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+
+        *{
+            margin: 0px;;
+            padding: 0;
+            box-sizing: border-box; 
+        
+        
+        
+        }
+
+        .flexboxcontainer{
+            border: 2px solid #32a1ce;
+            width: 90%;
+            height: 90%;
+
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            
+            
+            flex-direction:column;
+
+
+        }
+        
+        body{
+            font-family: sans-serif;
+            font-size: 25px;
+            /* width: 100px; */
+            min-height: 100vh;
+            
+        }
+
+        .box-1{
+            align-self: flex-end;
+
+
+
+        }
+
+        
+        .box-2{
+            align-self:center
+
+
+
+        }
+
+
+        .box-3{
+            align-self:center
+
+
+
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="flexboxcontainer" >
+
+        <div class="box-1">Home</div>
+        <div class="box-2">About</div>
+        <div class="box-3">Contact</div>
+        <div class="box-4">Services</div>
+    </div>
+
+    
+</body>
+</html>
