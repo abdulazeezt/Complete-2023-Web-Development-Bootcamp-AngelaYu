@@ -3,6 +3,7 @@
 <head>
  <meta charset="UTF-8">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!-- Flexgrow property . Video starts at 20:15 -->
     <title>Document</title>
 
     <style> 
@@ -14,11 +15,15 @@
     gap: 10px; flex-direction:row; }
 
     [class ^="box-"  ]{
-        width: 100px; height: 100px; 
-        background-color: skyblue; border: 10px; }
-
+        /* width: 100px; */
+        height: 100px; background-color: skyblue; border-radius: 10px; }
+        .box-1{flex-grow: 1;}
+        .box-2{flex-grow: 1;}
+        .box-3{flex-grow: 2;}
+        .box-4{flex-grow: 1;}
+        
     </style>
-
+ 
 </head>
 <body>
 
