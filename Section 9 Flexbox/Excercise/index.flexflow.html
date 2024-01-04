@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+
+    <style> 
+    
+        *{ margin: .5px; box-sizing: border-box; } 
+        
+        /* See how we used the flexflow function. 
+        Video starts at 25:36 and ends at: 32:15
+        */
+
+        .flexboxcontainer{ border: 2px solid #32a1ce; width:100%; 
+         height: 50vh; display: flex; gap: 10px;  
+         /* flex-wrap: wrap;
+         flex-direction:row;  */
+        /* Above two lines can be replaced using below single line */
+        flex-flow: row wrap;
+
+        }
+    
+        [class ^="box-"  ]{
+            width: 100px; height: 100px; 
+            background-color: skyblue; border-radius: 10px; }
+            
+    </style>
+        
+</head>
+<body>
+
+    <div class="flexboxcontainer" >
+
+        <div class="box-1">Home</div>
+        <div class="box-2">About</div>
+        <div class="box-3">Contact</div>
+        <div class="box-4">Services</div>
+    </div>
+
+    
+</body>
+</html>
