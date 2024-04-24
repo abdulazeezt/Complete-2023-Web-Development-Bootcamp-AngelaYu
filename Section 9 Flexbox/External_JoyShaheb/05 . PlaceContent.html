@@ -23,11 +23,22 @@
       }
 
       .container{
-          width: 100%;
-          height: 100%;
-          display: flex;
-          gap: 20px;
-          flex-direction:column;
+        border: 2px solid red;
+        width: 100%;
+
+
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        flex-direction: row;
+        /* justify-content: flex-end; */
+        /* align-content: center; */
+        /* The above two properties can be implemented using below property */
+        place-content:center flex-end ;
+
+
 
       }
 
