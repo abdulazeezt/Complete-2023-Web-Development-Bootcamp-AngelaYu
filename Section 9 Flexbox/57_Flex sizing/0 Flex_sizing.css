@@ -1,0 +1,58 @@
+
+/* .boxcontainer>div {   border-width: 10px;
+  border-style: none;   border-color: brown } */
+
+.boxcontainer > .col1 {
+  color: white;
+  background-color: blue;
+}
+
+.boxcontainer > .col2 {
+  color: white;
+  background-color: rgb(15, 88, 77);
+}
+
+.boxcontainer> .col3 {
+  color: white;
+  background-color: #3f2f2f;
+}
+
+.boxcontainer> .col4 {
+  color: white;
+  background-color: #4e511c;
+}
+
+.boxcontainer>p {
+  font-weight:bold;
+}
+
+
+.boxcontainer > .para1 {
+  color: white;
+  background-color: blue;
+}
+
+.boxcontainer > .para2 {
+  color: white;
+  background-color: rgb(15, 88, 77);
+}
+
+.boxcontainer > .para3 {
+  color: white;
+  background-color: rgb(255, 68, 0);
+}
+
+.boxcontainer > .para4 {
+  color: #000000;
+  background-color: #d9ef6a;
+  
+}
+
+
+.boxcontainer{
+  display: flex;
+  gap: 5px;
+
+  /* background-color: aquamarine;  */
+  
+}
