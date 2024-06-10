@@ -93,13 +93,9 @@ img {
 }
 
 .main p {
-  /* padding-top: 100px;
-  padding-left: 800px;   */
-  position:relative;
-  left: 20px;
-  padding-right: 50px;
-  word-wrap:normal;
   
+  position: relative;
+
 
 
 }
