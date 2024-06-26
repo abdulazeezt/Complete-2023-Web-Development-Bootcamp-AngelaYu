@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+<style>
+      *{ 
+        padding:0;
+        margin:0;
+        box-sizing:border-box;        
+      }
+
+      [class ^="box-"]{
+        background-color: skyblue;
+        display: grid;
+        place-items: center;
+   }
+
+   .container{
+          /* gap:20px; */
+          display: grid;
+          height: 100vh;
+          grid-template: 100px 200px/200px 400px;
+          
+          column-gap: 5px;
+          row-gap: 10px;
+
+
+      }
+
+</style>
+
+</head>
+<body>
+
+<div class="container">
+  <div class="box-1">A</div>
+  <div class="box-2">B</div>
+  <div class="box-3">C</div>
+  <div class="box-4">D</div>
+</div>
+  
+</body>
+</html>
