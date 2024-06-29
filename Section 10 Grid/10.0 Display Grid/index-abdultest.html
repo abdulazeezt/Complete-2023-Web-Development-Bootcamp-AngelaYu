@@ -8,35 +8,66 @@
     /* Each square should be 100px by 100px */
     /* My colours for white: #f0d9b5, black: #b58863 */
 
-    
-     .container{
-        display: grid;
-        width: 800px;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr  1fr ;
-        /* grid-template-rows: 1fr; */
+
+    .container{
+
+    display: grid;
+    /* gap: .5px; */
+    height: 100vh;
+    /* border: 10x solid; */
+
+      /* grid-template: repeat(10px, 6fr)/repeat(50px,12rf) ; */
+      /* grid-template: 90px 90px 90px 90px 90px 90px 90px 90px / 90px 90px 90px 90px 90px 90px 90px 90px ; */
+      grid-template: repeat( 8 , 70px )  / repeat( 8, 70px )  ;
+      /* grid-template-areas:  
+                           " A A A A  B B B B"
+                              ; */
+      
+      /* justify-items: stretch; */
+
 
     }
 
-
-    .white{
-          background-color: #f0d9b5;
-          width: 100px;
-          height: 100px;
-      } 
-
-      .black{
-
-        background-color: #b58863;
-        width: 100px;
-        height: 100px;
-
+    
+.white{
+        background-color: white;
+        /* height: 50px;
+        width: 50px; */
+        /* border: solid; */
+        /* grid-area: A; */
 
 
       }
 
 
+
+      .black{
+        background-color: black;
+        /* height: 50px;
+        width: 50px; */
+        /* border: solid; */
+        /* grid-area: B; */
+        /* border: 10px solid blue ; */
+        
+
+
+      }
+
+  
+      .container>div{
+            /* border: solid;  */
+            /* /* background-color: brown; */
+            border:1px solid red;
+      }
+
+      
+
+
+
+
 </style>
 </head>
+
 
 <body>
   <div class="container">

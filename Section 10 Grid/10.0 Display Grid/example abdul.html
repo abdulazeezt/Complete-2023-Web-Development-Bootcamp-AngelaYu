@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Grid vs Flexbox</title>
+<style>
+.container{
+  border: solid;
+  display: grid;
+  gap: 10px;
+grid-template-areas: 
+                /* "A A A A      A A A A      B B B B"  
+                "C C C C      C C D D      D D D D" ;  } */
+
+                "A A A A      A A A A      A A A A"  
+                "B B B B      B B B B      C C C C" 
+                "B B B B      B B B B      D D D D"
+                
+                ;  }
+
+
+
+
+
+.container>div{
+      border-width: 2px;
+      border-color: aquamarine;
+      border-style: double;
+}
+
+.one{
+    grid-area: A;}
+
+.two{
+  grid-area: B;}
+
+.three{
+  grid-area: C;}
+
+.four{
+  grid-area: D;}
+
+
+</style>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="one">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut error ea neque! Minima fuga deserunt delectus
+        corrupti molestiae, eos esse quos vel reiciendis neque quibusdam!</p>
+    </div>
+    <div class="two">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis eius, consequuntur facere iure error fugiat
+        architecto illo, repudiandae magni doloremque non molestiae qui expedita iste!</p>
+    </div>
+    <div class="three">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae porro a harum in voluptate reprehenderit
+        necessitatibus, placeat cumque est odio accusamus! Quaerat nesciunt tempora dolorum voluptate ex dolor natus
+        fuga possimus totam ipsam, saepe odio nemo officia accusamus nam voluptates magnam soluta autem animi quia
+        veniam praesentium excepturi? Incidunt, quia.</p>
+    </div>
+    <div class="four">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, expedita ex culpa corporis quidem amet ducimus
+        aut facilis harum atque veniam similique facere quia odio exercitationem, aliquam voluptates at molestiae!</p>
+    </div>
+  </div>
+
+</body>
+
+</html>
