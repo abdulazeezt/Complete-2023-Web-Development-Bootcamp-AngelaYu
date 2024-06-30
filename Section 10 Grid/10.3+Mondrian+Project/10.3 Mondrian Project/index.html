@@ -19,16 +19,52 @@
     HINT: Remember you can't change the properties of grid lines.
     But grid lines are transparent!
     */
-  
   .container{
-    width: 748px;
+    width: 739px;
     height: 748px;
     border:2px solid red;
     background-color: black;
+     
+    display: grid;
+    grid-template-columns: 328fr 198fr 153fr 50fr;
+    grid-template-rows: 423fr 295fr 20fr;
+     column-gap: 9px; 
+     row-gap: 9px; 
+  }  
+   .box{
+     border: 1px solid yellow;
+     
+   }
 
+   .red{
+      background-color: red;
+      /* column-gap: 9px; */
+      /* gap */
+
+   }
+  
+  .box2{
+   background-color:gainsboro;
+   grid-column-start: 2;
+   grid-column-end: span 4
+     
   }
-  
-  
+
+
+  .box3{
+   background-color:gainsboro;
+   /* grid-column-start: 2; */
+   /* grid-column-end: span 4 */
+     
+  }
+
+  .box4{
+   background-color:gainsboro;
+   /* grid-column-start: 2; */
+   grid-column-end: span 3;
+     
+  }
+
   </style>
 </head>
 
@@ -36,11 +72,13 @@
   <!-- Write your HTML here -->
 
 <div class="container">
-
-
-
-
-
+    <div class="box red">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="box box4">4</div>
+    <div class="box box5">5</div>
+    <div class="box box6">6</div>
+    <div class="box box7">7</div>
 </div>
 
 
