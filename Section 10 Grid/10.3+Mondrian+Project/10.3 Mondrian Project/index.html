@@ -22,11 +22,11 @@
   .container{
     width: 739px;
     height: 748px;
-    border:2px solid red;
+    /* border:2px solid red; */
     background-color: black;
      
     display: grid;
-    grid-template-columns: 328fr 198fr 153fr 50fr;
+    grid-template-columns: 320fr 198fr 153fr 75fr;
     grid-template-rows: 423fr 295fr 20fr;
      column-gap: 9px; 
      row-gap: 9px; 
@@ -60,9 +60,48 @@
 
   .box4{
    background-color:gainsboro;
-   /* grid-column-start: 2; */
    grid-column-end: span 3;
+  }
+
+
+  .box5{
+    width: 50px;
+    /* grid-row-end: 8; */
+   /* height: 130px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
      
+   .box5top{
+          background-color:#174370;;
+          border-color: black;
+          /* border-width: 2px; */
+          height: 47%;          
+          border-bottom: 10px;
+
+   }
+
+
+    
+   .box5bottom{
+          background-color:gainsboro;
+          border-color: black;
+          /* border-width: 2px; */
+          height: 47%;          
+          border-bottom: 10px;
+
+   }
+
+
+
+
+
+
+  .box7{
+   background-color:yellow;
+
+  
   }
 
   </style>
@@ -76,12 +115,14 @@
     <div class="box box2">2</div>
     <div class="box box3">3</div>
     <div class="box box4">4</div>
-    <div class="box box5">5</div>
+    <div class="box box5">
+          <div class="box5top"></div>
+          <div class="box5bottom"></div> 
+    </div>
     <div class="box box6">6</div>
     <div class="box box7">7</div>
+    <!-- <div class="box box7">8</div> -->
 </div>
-
-
 
 </body>
 
