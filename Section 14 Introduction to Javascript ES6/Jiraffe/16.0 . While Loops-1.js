@@ -5,8 +5,10 @@ var h2a = document.getElementById("h2-1")
 var h2d = document.getElementById("h2-4")
 h2a.style="background-color: cadetblue; font-style: italic;"
 
+var index = 0
 
-  var index = 0
+
+//  while loop
   while ( index < 20 ){
 
     // var output = "Hello";
@@ -15,8 +17,7 @@ h2a.style="background-color: cadetblue; font-style: italic;"
 
   }
 
-
-//Do while loop %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+//################################Do while loop %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 do {
   index++ ;
