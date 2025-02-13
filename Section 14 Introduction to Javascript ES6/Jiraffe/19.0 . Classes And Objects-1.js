@@ -5,13 +5,26 @@ var h2a = document.getElementById("h2-1")
 var h2d = document.getElementById("h2-4")
 h2a.style="background-color: cadetblue; font-style: italic;"
 
+// Class definition starts here :$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
+  class Book {
+    constructor(title, author   ) {
+      this.title = title
+      this.author = author
+    }
 
+     readBook(){
+        document.write( " Reading :   " +this.title +"   by    :" +this.author   )
+      //  return  " Reading " +this.title +"BY" +this.author
 
+     }
 
+  }
 
+var book1 = new Book("Harry Potter", "JK Rawling")
 
-  // h2a.innerHTML  = output
+book1.readBook()
+
 
 } 
 
