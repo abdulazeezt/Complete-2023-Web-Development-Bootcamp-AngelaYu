@@ -33,10 +33,12 @@ class chef{
 
 class italianCheff extends chef 
 {
-        constructor( countryOfOrigin    ){
-             this.countryOfOrigin = countryOfOrigin 
+        constructor(name, age, countryOfOrigin ) {
+            super(name, age)   
+            this.countryOfOrigin = countryOfOrigin 
             }
-        makePasta()
+
+            makePasta()
             {
                document.write(" The chef makes pasta <br>");
             }
@@ -46,7 +48,22 @@ class italianCheff extends chef
 
 }
 
-//#####################################################################
+//########   Class testing ######################################
+
+var mychef = new chef("mychef",45)
+
+mychef.makeChicken()
+
+mychef.makeSpecialDish()
+
+document.write(mychef.name +"<br>")
+
+
+var myitalianchef = new italianCheff("italianchef",40,"italy")
+
+myitalianchef.makeSpecialDish()
+
+document.write(myitalianchef.name +"<br>")
 
 
 
