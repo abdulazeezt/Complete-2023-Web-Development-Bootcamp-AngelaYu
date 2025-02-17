@@ -8,19 +8,24 @@ try {
   var h2error = document.getElementById("h2_error")
   var h2Completion = document.getElementById("h2_completion")
   
-  var listbox1 = document.getElementsByClassName("box-1")
+  var paradiv1 = document.getElementsByClassName("box-1")
+  var paradiv2 = document.getElementsByClassName("box-2")
+  var paradiv3 = document.getElementsByClassName("box-3")
+  var paradiv4 = document.getElementsByClassName("box-4")
 
   //#################################################################################
   var greeting = "Hello world"
       // print (asdfas;ffasd)
       // h2d.innerHTML = " The code has been implemented ."  
 
-      listbox1[0].innerHTML = greeting
+      paradiv1[0].innerHTML = "the Lenghth:  " +greeting.length
+      paradiv2[0].innerHTML = "the char :  " +greeting.charAt(0)
+      paradiv3[0].innerHTML = "index of llo asfda adfa asfdafaaa    :  " +greeting.indexOf("llo")
+      paradiv4[0].innerHTML = "substring 1,3 :- "+greeting.substring(1,3) 
+
+
 
       h2error.innerHTML = " The code has been implemented and Successful."  
-
-
-
       //##################################################################################
 
 } 
@@ -30,8 +35,7 @@ catch (error) {
     h2error.innerHTML = "Error      :-      " +error
 }
 
+
 finally{
-
-  h2Completion.innerHTML = "code execution has been completed ."  
-
+  h2Completion.innerHTML = "End of finally block."  
 }
