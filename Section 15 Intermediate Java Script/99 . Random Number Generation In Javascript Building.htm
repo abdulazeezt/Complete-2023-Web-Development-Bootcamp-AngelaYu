@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+
+      /* *{ margin-bottom: 10px; box-sizing: border-box; }  */
+
+      #mainhead1{  color:blue; text-align: center;  }
+      .flexContainerFooter {
+        display: flex;
+        /* height: 100%;  */
+        /* width: 50px; */
+        /* border-width: 1px; */
+        /* border-color: blue; */
+        /* border-style: solid; */
+        background-color: cornflowerblue; flex-direction: row;
+        /* gap: 5px; */
+        flex-wrap: wrap;
+        /* justify-content:space-around ; */
+        /* align-content:start */
+      
+      }
+
+      .flexContainerFooter  H3 {
+        border: width 1px; border-color:blue; border-style:solid; 
+        background-color: #00f2ff; flex-grow: 1; flex-basis: 50px;
+      }
+
+      #h2_error{
+        font-style: italic;
+
+      }
+
+      .container{
+          width: 100%; height: 100%; display: flex;
+          gap: 20px; flex-direction:row; margin-bottom: 10px;
+          flex-wrap: wrap;
+          
+      }
+
+      [class ^="box-"  ]{
+        /* width: 100px; */
+        height: 100px; background-color: skyblue;
+         border-radius: 10px; align-content: center;
+         text-align: center;
+
+        }
+
+        .box-1{flex-grow: 1;}
+        .box-2{flex-grow: 1;}
+        .box-3{flex-grow: 1;}
+        .box-4{flex-grow: 1;}
+        /*While shrinking the size will not be changed */
+        /* .box-4{flex-basis: 100px;} */
+
+    </style>
+  </head>
+
+  <body>
+
+      <h1 id="mainhead1"   >  
+        99 . Random Number Generation In Javascript
+      </h1>
+        <!-- <h2 id="h2-1"     > h2-1   
+                </h2>
+        <h2 id="h2-2" >h2-2</h2>
+        <h2 id="h2-3"  >h2-3</h2> -->
+
+        <div class="container" >
+          <div class="box-1">Home </div>
+          <div class="box-2">About</div>
+          <div class="box-3">Services</div>
+          <div class="box-4">Contacts</div>
+        </div>
+
+    <!-- <hr>             -->
+    <div class="flexContainerFooter"  >
+        <h3 id="h2_error" > h2_error</h3>   
+        <h3 id="h2_completion" > h2_completion</h3> 
+    </div>
+    <script src="./99 . Random Number Generation In Javascript Building.js"></script>
+  </body>
+
+  </html>
+
+
+
