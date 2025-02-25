@@ -47,13 +47,10 @@ function getTagID(tagname) {
     return temparr  
 
 }
-    
 
         mainpara1.innerHTML = "Returning ID Array : <br> <br> " +getTagID("p") 
         // mainpara1.innerHTML = "Returning Fib Array : <br> <br> " +DocumentObject().length
         // console.log("Returning ID Array : <br> <br> " +getTagID("li")  )
-
-
 
     //  ###################################################################################
     //  ###################################################################################
