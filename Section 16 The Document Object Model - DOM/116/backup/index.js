@@ -16,4 +16,4 @@ mybutton.style.backgroundColor ="blue"
 
 // document.querySelector("button").style.backgroundColor ="yellow" 
 
-alert (document.querySelectorAll("button").classlist;)
+alert (document.querySelectorAll("button").classlist)
