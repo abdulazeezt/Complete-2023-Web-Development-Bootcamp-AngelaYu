@@ -35,20 +35,22 @@ function getTagID(tagname) {
 
       var temparr ;
 
-      for (var i=0; i < indexcount ; i++){
+      for (var i=0; i < indexcount ; i++){ 
         
-            temparr.push( "Looping through : " +i +"Current ID is : " +document.getElementsByTagName(tagname)[i].id  +"<br>"  )
-            // console.log(  "Looping through : " +i +"Current ID is : " +document.getElementsByTagName(tagname)[i].id  +"<br>"  )
+            temparr.push(document.getElementsByTagName(tagname)[i].id  )
+            console.log(  "Looping through : " +i +"Current ID is : " +document.getElementsByTagName(tagname)[i].id  +"<br>"  )
             // }
             //  temparr =   document.firstElementChild
             // temparr = indexcount
-            
+            if (document.getElementsByTagName(tagname)[i].id === "mainPara1") { document.write(" This is done. ")   }  
+            // else { }
     }
     return temparr  
 
 }
+        // var allPtags = getTagID("p")  
+        mainpara1.innerHTML = "Returning ID Array :  <br> total length is : "  +allPtags.length    +"<br>"  +allPtags  
 
-        mainpara1.innerHTML = "Returning ID Array : <br> <br> " +getTagID("p") 
         // mainpara1.innerHTML = "Returning Fib Array : <br> <br> " +DocumentObject().length
         // console.log("Returning ID Array : <br> <br> " +getTagID("li")  )
 
@@ -56,10 +58,16 @@ function getTagID(tagname) {
     //  ###################################################################################
         h2error.innerHTML = " The code has been implemented and Successful."  
     //  ###################################################################################
-        console.log(" Has been implemented and successfull ")
+    
+    
+    // console.log(" Has been implemented and successfull ")
 
         // console.log(" REturning :  "   +document.getElementsByTagName("p")[0].id  )
-        
+
+//##########EXCERCISE   BUTTON COLOR
+
+document.getElementsByTagName("button")[0].style.backgroundColor = "Red "
+
 //############################################################################################################
 } 
 
