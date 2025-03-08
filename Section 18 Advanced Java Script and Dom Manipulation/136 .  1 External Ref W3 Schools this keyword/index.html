@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The Element Object</h1>
+<h2>The addEventListener() Method</h2>
+
+<p>Click the button to change its background color.</p>
+
+<button id="myBtn">Try it</button>
+
+
+<script>
+document.getElementById("myBtn").addEventListener("click", function() {
+  this.style.backgroundColor = "red";
+  console.log(" Getting id of html element event source :   "  +this.getAttribute("id") )
+  // var mystring = this.getAttribute("id")
+  
+   
+
+
+  }
+
+);
+</script>
+
+
+
+</body>
+</html>
