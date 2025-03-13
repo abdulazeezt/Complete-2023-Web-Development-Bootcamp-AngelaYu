@@ -1,0 +1,32 @@
+html{
+
+  font-family: Poppins, sans-serif;
+
+}
+
+h1{
+  position: relative;
+  width: max-content;
+
+}
+
+
+h1::after {
+  /* background-color: blue; */
+  content: '';
+  background:linear-gradient(to right, red,blue );
+  height: 4px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 100px;
+  transition:100ms;
+}
+
+h1:hover::after{
+  width: 0;
+
+
+
+}
