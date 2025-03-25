@@ -1,0 +1,34 @@
+
+h1{
+    /* background-color: brown; */
+    /* color: blue; */
+}
+
+  /* 
+body{
+
+    background-color: brown;
+} 
+  */
+
+
+
+*.brown{
+  background-color: chocolate;
+  color: blue;
+
+}
+
+
+.big-title{
+ font-size: 5rem;
+ color:darkgreen;
+ font-family: cursive;
+
+}
+
+.margin{
+   margin: 50px;
+
+
+}
